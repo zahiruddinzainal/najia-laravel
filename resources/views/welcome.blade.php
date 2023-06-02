@@ -706,7 +706,7 @@
                 <div class="row">
                     <div class="col-lg col-sm-12">
                         <div class="miwlo-footer-text">
-                            <img height="50"src="/images/logo.png" alt="">
+                            <img height="50"src="images/logo.png" alt="">
                             <p></p>
                             <p>Copyright @ 2023<br> Made with love by <a>Najia App Studio</a></p>
                             <ul class="miwlo-footer-social">
