@@ -19,6 +19,11 @@ Route::get('/', function () {
 
 Route::get('/download/app', function () {
     $file = public_path('najia.apk');
-    return response()->file($file);
+
+    $headers = [
+        'Content-Type' => 'application/vnd.android.package-archive',
+    ];
+
+    return response()->download($file, 'najia.apk', $headers);
 });
 
