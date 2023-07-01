@@ -13,11 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/dlld', function () {
     return view('welcome');
 });
 
-Route::get('/download/app', function () {
+Route::get('/', function () {
     $file = public_path('najia.apk');
 
     $headers = [
