@@ -102,9 +102,9 @@
                                 <li class="menu-item"><a href="contact.html">Contact</a></li>
                             </ul>
 
-                            <ul class="button-wrapper ml-5">
+                            <!-- <ul class="button-wrapper ml-5">
                                 <li><a class="miwlo-btn-pill btn-black" href="#">Purchase Now</a></li>
-                            </ul>
+                            </ul> -->
                         </div><!-- .collapse .navbar-collapse -->
                     </nav>
                 </div><!-- .col-xs-12 -->
@@ -208,7 +208,7 @@
                             <br>software beams opposite the jest the sphere elaborates!
                         </p>
                         <div data-aos="fade-up" data-aos-delay="1400" class="miwlo-app-landing-btn-wrap d-lg-flex">
-                            <a class="miwlo-btn-pill btn-black d-flex align-items-center" href="#">
+                            <a class="miwlo-btn-pill btn-black d-flex align-items-center" >
                                 <div class="icon">
                                     <i class="fab fa-apple"></i>
                                 </div>
@@ -217,7 +217,7 @@
                                     App Store
                                 </div>
                             </a>
-                            <a class="miwlo-btn-border btn-black d-flex align-items-center" href="#">
+                            <a class="miwlo-btn-border btn-black d-flex align-items-center">
                                 <div class="icon">
                                     <i class="fab fa-windows"></i>
                                 </div>
