@@ -13,17 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/dlld', function () {
+Route::get('/', function () {
     return view('welcome');
 });
-
-Route::get('/', function () {
-    $file = public_path('najia.apk');
-
-    $headers = [
-        'Content-Type' => 'application/vnd.android.package-archive',
-    ];
-
-    return response()->download($file, 'najia.apk', $headers);
-});
-
